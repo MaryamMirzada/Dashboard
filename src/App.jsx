@@ -1,12 +1,11 @@
 import './App.css'
 import {Typography} from '@mui/material'
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-    <Typography variant='h3'>
-      Dashboard
-    </Typography>
+      <Navbar />
     </div>
   );
 }
