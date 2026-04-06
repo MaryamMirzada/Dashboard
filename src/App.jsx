@@ -1,13 +1,11 @@
-import './App.css'
-import {Typography} from '@mui/material'
-import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <h1>Hello world</h1>
     </div>
   );
 }
 
-export default App
+export default App;
